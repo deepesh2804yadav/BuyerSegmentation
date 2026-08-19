@@ -26,12 +26,14 @@ https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/research_pa
 
 https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/main/docs/dashboard.html
 
-**Streamlit live app:** this environment cannot create a `*.streamlit.app` URL without your Streamlit/GitHub login. Do this once (about two minutes):
+**Streamlit live app (`*.streamlit.app`):** Streamlit Cloud must be authorized with your GitHub login. After that, the app deploys from `main` / `app.py`.
 
-1. Open https://share.streamlit.io/
-2. Sign in with the same GitHub account that owns this repo
-3. New app → repository `deepesh2804yadav/BuyerSegmentation` → branch `main` → main file `app.py`
-4. Paste the resulting `https://….streamlit.app` URL into the form
+**One-click deploy:**  
+https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py
+
+Then: Advanced settings → Python **3.12** → optional subdomain `parcl-buyer-intelligence` → Deploy.
+
+Use the resulting `https://….streamlit.app` URL on the form (for example `https://parcl-buyer-intelligence.streamlit.app` if that subdomain is free).
 
 ## 4. Project Feedback video link
 

@@ -9,28 +9,7 @@ import pandas as pd
 from sklearn.cluster import AgglomerativeClustering, KMeans
 from sklearn.metrics import adjusted_rand_score, silhouette_score
 
-SEGMENT_PLAYBOOK = {
-    "C1": {
-        "buyer_type": "Global Investors",
-        "characteristics": "Highest share of non-US buyers and solid investment-purpose demand.",
-        "marketing": "Target with yield, FX-aware pricing, and cross-border investment packs.",
-    },
-    "C2": {
-        "buyer_type": "First-Time Buyers",
-        "characteristics": "Largest owner-occupier pool: home-led purchases with frequent loan use.",
-        "marketing": "Lead with financing partners, starter-to-mid inventory, and education content.",
-    },
-    "C3": {
-        "buyer_type": "Corporate Buyers",
-        "characteristics": "Registered company accounts. Younger decision-makers buying multiple units.",
-        "marketing": "Offer bulk pricing, office mix, and relationship-managed deals.",
-    },
-    "C4": {
-        "buyer_type": "Luxury Investors",
-        "characteristics": "Small high-value cohort: older buyers, higher satisfaction, largest portfolios.",
-        "marketing": "Prioritize concierge sales, premium towers, and exclusive listings.",
-    },
-}
+from src.segments import SEGMENT_PLAYBOOK
 
 
 def evaluate_kmeans(

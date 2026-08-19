@@ -8,8 +8,8 @@ from functools import lru_cache
 import pandas as pd
 import streamlit as st
 
-from src.clustering import SEGMENT_PLAYBOOK
 from src.paths import ARTIFACTS, DATA_PROCESSED
+from src.segments import SEGMENT_PLAYBOOK
 
 COUNTRY_ISO3 = {
     "USA": "USA",

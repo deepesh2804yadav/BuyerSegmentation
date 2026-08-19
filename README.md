@@ -43,7 +43,7 @@ Copy from [`docs/SUBMISSION.md`](docs/SUBMISSION.md).
 | GitHub repository | https://github.com/deepesh2804yadav/BuyerSegmentation |
 | Research paper (PDF) | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/research_paper.pdf |
 | Web dashboard | https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/main/docs/dashboard.html |
-| Streamlit Cloud | Deploy `app.py` from `main` at https://share.streamlit.io/ then paste the `*.streamlit.app` URL |
+| Streamlit Cloud | One-click deploy (GitHub login): https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py |
 | Feedback video | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/project-feedback-demo.mp4 |
 
 ## Setup
@@ -51,8 +51,23 @@ Copy from [`docs/SUBMISSION.md`](docs/SUBMISSION.md).
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
+
+`requirements.txt` is the Streamlit Cloud install (dashboard only). Use `requirements-dev.txt` to train models and run tests.
+
+## Deploy on Streamlit Community Cloud (`*.streamlit.app`)
+
+The public GitHub repo is ready for [Streamlit Community Cloud](https://share.streamlit.io/). A `*.streamlit.app` URL is created only after you sign in with GitHub (Streamlit does not allow deploying someone else's account from this environment).
+
+1. Open this deploy link while logged into the GitHub account that owns the repo:  
+   https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py
+2. If asked, authorize Streamlit to read `deepesh2804yadav/BuyerSegmentation`.
+3. Confirm **Main file path** is `app.py` and **branch** is `main`.
+4. Click **Advanced settings** and set **Python version** to **3.12**.
+5. Optional: set **App URL** / custom subdomain to `parcl-buyer-intelligence` so the app is  
+   `https://parcl-buyer-intelligence.streamlit.app`
+6. Click **Deploy** and wait a few minutes. Use the `https://….streamlit.app` URL on the internship form.
 
 ## Train
 
