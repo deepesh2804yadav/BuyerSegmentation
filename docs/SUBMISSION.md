@@ -22,18 +22,19 @@ https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/research_pa
 
 ## 3. Deployed project link (Streamlit / web app)
 
-**Works now (static web dashboard):**
+**Streamlit Community Cloud (use this on the form after deploy):**
 
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/main/docs/dashboard.html
+https://parcl-buyer-intelligence.streamlit.app
 
-**Streamlit live app (`*.streamlit.app`):** Streamlit Cloud must be authorized with your GitHub login. After that, the app deploys from `main` / `app.py`.
+If that subdomain was taken, use the `https://….streamlit.app` URL shown in your Streamlit workspace.
 
-**One-click deploy:**  
+**One-click deploy from this repo:**  
 https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py
 
-Then: Advanced settings → Python **3.12** → optional subdomain `parcl-buyer-intelligence` → Deploy.
+Settings: branch `main`, main file `app.py`, Python **3.12**, optional App URL `parcl-buyer-intelligence`.
 
-Use the resulting `https://….streamlit.app` URL on the form (for example `https://parcl-buyer-intelligence.streamlit.app` if that subdomain is free).
+**Static backup dashboard:**  
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/main/docs/dashboard.html
 
 ## 4. Project Feedback video link
 

@@ -1,8 +1,12 @@
 # Buyer Segmentation & Investment Profiling
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py)
+
 Machine-learning buyer intelligence for the Parcl real estate platform, prepared for the Unified Mentor × Parcl Co. Limited market-intelligence brief.
 
 The pipeline cleans client and listing data, engineers investment profiles, clusters buyers with K-Means (validated by hierarchical clustering), and serves a Streamlit dashboard for segment targeting.
+
+**Live Streamlit app:** after you click the badge above (GitHub login, Python 3.12), Streamlit hosts it at a `https://….streamlit.app` URL. Suggested subdomain: [`parcl-buyer-intelligence.streamlit.app`](https://parcl-buyer-intelligence.streamlit.app).
 
 ## Dataset
 
@@ -43,7 +47,7 @@ Copy from [`docs/SUBMISSION.md`](docs/SUBMISSION.md).
 | GitHub repository | https://github.com/deepesh2804yadav/BuyerSegmentation |
 | Research paper (PDF) | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/research_paper.pdf |
 | Web dashboard | https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/main/docs/dashboard.html |
-| Streamlit Cloud | One-click deploy (GitHub login): https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py |
+| Streamlit app (`*.streamlit.app`) | [Deploy from GitHub](https://share.streamlit.io/deploy?repository=deepesh2804yadav/BuyerSegmentation&branch=main&mainModule=app.py) → then use your `https://….streamlit.app` URL (suggested: https://parcl-buyer-intelligence.streamlit.app) |
 | Feedback video | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/main/docs/project-feedback-demo.mp4 |
 
 ## Setup
