@@ -34,6 +34,18 @@ Client fields: `client_id`, `client_type`, `gender`, `country`, `region`, `date_
 
 Full EDA, caveats, and recommendations: [`docs/research_paper.md`](docs/research_paper.md).
 
+## Unified Mentor submission links
+
+Copy from [`docs/SUBMISSION.md`](docs/SUBMISSION.md).
+
+| Field | Link |
+| --- | --- |
+| GitHub repository | https://github.com/deepesh2804yadav/BuyerSegmentation |
+| Research paper (PDF) | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/cursor/buyer-segmentation-dashboard-3ca9/docs/research_paper.pdf |
+| Web dashboard | https://htmlpreview.github.io/?https://raw.githubusercontent.com/deepesh2804yadav/BuyerSegmentation/cursor/buyer-segmentation-dashboard-3ca9/docs/dashboard.html |
+| Streamlit Cloud | Deploy `app.py` at https://share.streamlit.io/ then paste the `*.streamlit.app` URL |
+| Feedback video | https://github.com/deepesh2804yadav/BuyerSegmentation/blob/cursor/buyer-segmentation-dashboard-3ca9/docs/project-feedback-demo.mp4 |
+
 ## Setup
 
 ```bash
