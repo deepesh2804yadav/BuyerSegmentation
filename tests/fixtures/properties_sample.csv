@@ -1,0 +1,6 @@
+listing_id,tower_number,transaction_date,unit_category,unit_number,floor_area_sqft,sale_price,listing_status,client_ref
+1012,1,01-01-2024,Apartment,12,1000,"$200,000.00",Sold,C0001
+1013,1,01-02-2024,Office,13,800,"$300,000.00",Sold,C0001
+1014,2,01-03-2024,Apartment,14,900,"$500,000.00",Sold,C0002
+1015,2,01-04-2024,Apartment,15,700,"$180,000.00",Available,
+1016,3,01-05-2024,Apartment,16,650,"$150,000.00",Sold,C0003

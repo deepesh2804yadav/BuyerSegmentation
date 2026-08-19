@@ -1,0 +1,32 @@
+{
+  "k": 4,
+  "unconstrained_k": 4,
+  "company_cluster_id": 3,
+  "kmeans_silhouette": 0.16607276605557628,
+  "hierarchical_silhouette": 0.09520751560466706,
+  "ari_kmeans_hierarchical": 0.2943013600081983,
+  "code_map": {
+    "0": "C2",
+    "2": "C4",
+    "1": "C1",
+    "3": "C3"
+  },
+  "feature_names": [
+    "num__age",
+    "num__satisfaction_score",
+    "num__units_purchased",
+    "num__log_total_investment",
+    "num__log_avg_unit_price",
+    "num__office_share",
+    "bin__is_company",
+    "bin__is_investment",
+    "bin__is_loan",
+    "bin__is_international",
+    "cat__referral_channel_Agency",
+    "cat__referral_channel_Client",
+    "cat__referral_channel_Website"
+  ],
+  "n_clients": 2000,
+  "n_sold_listings": 7305,
+  "segmentation": "Companies are assigned to C3; K-Means (k=3) plus hierarchical validation segment individuals into C1/C2/C4."
+}

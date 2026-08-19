@@ -1,0 +1,6 @@
+client_id,client_type,first_name,last_name,date_of_birth,gender,country,region,acquisition_purpose,satisfaction_score,loan_applied,referral_channel
+C0001,Individual,Ada,Lee,05-11-1988,F,USA,California,Home,4,Yes,Website
+C0002,Company,Marleez,Co,2/28/1976,M,Germany,Berlin,Investment,5,No,Agency
+C0003,corporate,Sam,Kim,11/26/1995,Female,UK,England,Personal use,3,true,Client
+C0004,Individual,No,Sale,03-06-1970,M,Canada,Quebec,Home,2,No,Website
+C0001,Individual,Dup,Lee,05-11-1988,F,USA,California,Home,4,Yes,Website
